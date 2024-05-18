@@ -19,7 +19,8 @@ body {
   font-size: var(--paragraph);
   font-weight: 400;
   height: 100dvh;
-  align-content: center;
+  display: grid;
+  align-content: center; /* Turns out this is not supported in block elements in some browsers. */
   color: var(--grayish-blue-color);
 }
 
